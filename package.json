@@ -1,0 +1,25 @@
+{
+  "name": "dota2-spider",
+  "version": "1.0.0",
+  "description": "a tool for dota2 match",
+  "main": "spider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "chen",
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.40.0",
+    "cheerio": "0.17.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/luicfer/images-spider.git"
+  },
+  "bin": {
+    "dota2-spider": "spider.js"
+  }
+}
